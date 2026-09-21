@@ -1,0 +1,28 @@
+{
+  "name": "fragments-ui",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Safal778/fragments-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Safal778/fragments-ui/issues"
+  },
+  "homepage": "https://github.com/Safal778/fragments-ui#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.1",
+    "oidc-client-ts": "^3.5.0"
+  }
+}
