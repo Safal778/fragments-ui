@@ -2,6 +2,7 @@
 
 import { UserManager } from 'oidc-client-ts';
 
+console.log('redirect_uri:', process.env.OAUTH_SIGN_IN_REDIRECT_URL);
 const cognitoAuthConfig = {
   authority: `https://cognito-idp.us-east-2.amazonaws.com/${process.env.AWS_COGNITO_POOL_ID}`,
   client_id: process.env.AWS_COGNITO_CLIENT_ID,
